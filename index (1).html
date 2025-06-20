@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS Software for Philippine Businesses | One-Time Payment Only</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #10b981 100%);
+        }
+        .how-it-works-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial-card {
+            background: linear-gradient(145deg, #ffffff 0%, #f9fafb 100%);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        .faq-item {
+            transition: all 0.3s ease;
+        }
+        .faq-item:hover {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-cash-register text-3xl text-blue-600 mr-2"></i>
+                <span class="text-xl font-bold text-blue-600">PinoyPOS</span>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#features" class="font-medium hover:text-blue-600">Features</a>
+                <a href="#how-it-works" class="font-medium hover:text-blue-600">How It Works</a>
+                <a href="#testimonials" class="font-medium hover:text-blue-600">Testimonials</a>
+                <a href="#faq" class="font-medium hover:text-blue-600">FAQ</a>
+            </div>
+            <a href="#order" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition duration-300">
+                Order Now
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <div class="bg-blue-500 text-xs inline-flex items-center px-2.5 py-0.5 rounded-full mb-4">
+                    <span>No Monthly Fees</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                    POS Software for Your Business – One-Time Payment Only ₱16,990
+                </h1>
+                <p class="text-xl mb-6 opacity-90">
+                    No Monthly Fees. Free Shipping. Cash on Delivery Available.
+                </p>
+                <div class="flex items-center mb-8">
+                    <div class="flex -space-x-2">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/women/68.jpg" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <p class="font-medium">Over <span class="font-bold">100+ Users</span> Nationwide</p>
+                        <p class="text-sm opacity-80">Perfect for sari-sari stores, groceries, and retail shops</p>
+                    </div>
+                </div>
+                <a href="#order" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition duration-300 inline-flex items-center">
+                    Order Now <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="POS System" class="rounded-xl shadow-2xl w-full max-w-md border-8 border-white">
+                    <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg hidden md:block">
+                        <div class="text-blue-600 font-bold text-2xl">₱16,990</div>
+                        <div class="text-gray-600 text-sm">One-time payment</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="bg-gray-50 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center items-center gap-6 md:gap-12">
+                <div class="flex items-center">
+                    <i class="fas fa-shipping-fast text-3xl text-blue-600 mr-3"></i>
+                    <span class="font-medium">Free Shipping Nationwide</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-money-bill-wave text-3xl text-green-600 mr-3"></i>
+                    <span class="font-medium">Cash on Delivery</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-headset text-3xl text-purple-600 mr-3"></i>
+                    <span class="font-medium">Free Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">How It Works</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Getting started with our POS software is simple and hassle-free</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="how-it-works-card bg-white p-6 rounded-xl border border-gray-100 shadow-sm transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-blue-600 font-bold text-xl">1</span>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Place Your Order</h3>
+                    <p class="text-gray-600">Fill out our simple order form with your shipping details.</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="how-it-works-card bg-white p-6 rounded-xl border border-gray-100 shadow-sm transition duration-300">
+                    <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-green-600 font-bold text-xl">2</span>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">We Ship to You</h3>
+                    <p class="text-gray-600">We'll send a flash drive with the POS software via free shipping.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="how-it-works-card bg-white p-6 rounded-xl border border-gray-100 shadow-sm transition duration-300">
+                    <div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-purple-600 font-bold text-xl">3</span>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Install Software</h3>
+                    <p class="text-gray-600">Install the software on your Windows PC or laptop.</p>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="how-it-works-card bg-white p-6 rounded-xl border border-gray-100 shadow-sm transition duration-300">
+                    <div class="w-14 h-14 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-yellow-600 font-bold text-xl">4</span>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Get Free Training</h3>
+                    <p class="text-gray-600">We'll provide free remote setup assistance via Zoom or Messenger.</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-blue-50 border border-blue-100 rounded-lg p-6 max-w-3xl mx-auto">
+                <div class="flex items-start">
+                    <i class="fas fa-download text-blue-600 text-xl mt-1 mr-3"></i>
+                    <div>
+                        <h4 class="font-bold text-lg mb-1">Digital Download Option</h4>
+                        <p class="text-gray-700">For advanced users who prefer immediate access, you can request a digital download link after payment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Included -->
+    <section id="features" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">What's Included</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Everything you need to run your business efficiently</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 text-blue-600">
+                        <i class="fas fa-laptop-code text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">POS Software</h3>
+                    <p class="text-gray-600">Lifetime license with all features included - no subscriptions.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4 text-green-600">
+                        <i class="fas fa-usb text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Flash Drive</h3>
+                    <p class="text-gray-600">Contains installer and all necessary files for easy setup.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4 text-purple-600">
+                        <i class="fas fa-chalkboard-teacher text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Free Training</h3>
+                    <p class="text-gray-600">Remote setup assistance and training via Zoom or Messenger.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                    <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4 text-yellow-600">
+                        <i class="fas fa-video text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Instructional Videos</h3>
+                    <p class="text-gray-600">Step-by-step video guides for all features and troubleshooting.</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden max-w-4xl mx-auto">
+                <div class="md:flex">
+                    <div class="md:w-1/2 p-8">
+                        <h3 class="font-bold text-2xl mb-4">Key Features</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Sales tracking and reporting</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Inventory management</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Customer database</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Barcode scanning support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Receipt printing</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Multi-user access</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/2 bg-gray-50 p-8 border-t md:border-t-0 md:border-l border-gray-200">
+                        <h3 class="font-bold text-2xl mb-4">System Requirements</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-desktop text-blue-500 mt-1 mr-2"></i>
+                                <span>Windows 10 or 11</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-microchip text-blue-500 mt-1 mr-2"></i>
+                                <span>4GB RAM minimum</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-hdd text-blue-500 mt-1 mr-2"></i>
+                                <span>5GB free disk space</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-print text-blue-500 mt-1 mr-2"></i>
+                                <span>Works with most receipt printers</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-wifi text-blue-500 mt-1 mr-2"></i>
+                                <span>Internet for initial setup</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">What Our Customers Say</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Trusted by small business owners across the Philippines</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card p-6 rounded-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <img class="w-12 h-12 rounded-full mr-4" src="https://randomuser.me/api/portraits/women/32.jpg" alt="Maria S.">
+                        <div>
+                            <h4 class="font-bold">Maria S.</h4>
+                            <p class="text-sm text-gray-600">Sari-sari Store Owner, Quezon City</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 italic">"Napadali ang inventory ko! Dati manual lahat ng computation, ngayon isang click na lang. Sulit na sulit ang ₱16,990 para sa lifetime use."</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card p-6 rounded-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <img class="w-12 h-12 rounded-full mr-4" src="https://randomuser.me/api/portraits/men/54.jpg" alt="Juan D.">
+                        <div>
+                            <h4 class="font-bold">Juan D.</h4>
+                            <p class="text-sm text-gray-600">Grocery Owner, Cebu</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 italic">"Ang laking tulong para ma-track ang sales at inventory. Yung free training via Messenger, very helpful para sa mga katulad kong hindi techie."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card p-6 rounded-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <img class="w-12 h-12 rounded-full mr-4" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Andrea L.">
+                        <div>
+                            <h4 class="font-bold">Andrea L.</h4>
+                            <p class="text-sm text-gray-600">Boutique Owner, Davao</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="text-gray-700 italic">"Sobrang sulit at walang monthly bayad. Compatible sa existing printer namin. Yung customer support, mabilis sumagot sa mga tanong."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-sm overflow-hidden">
+            <div class="md:flex">
+                <div class="md:w-1/2 bg-blue-600 text-white p-8 md:p-12">
+                    <h2 class="text-3xl font-bold mb-4">Order Your POS Software</h2>
+                    <p class="text-lg mb-6 opacity-90">One-time payment of ₱16,990 with no hidden fees</p>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-3"></i>
+                            <span>Lifetime license - no subscriptions</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-3"></i>
+                            <span>Free shipping nationwide</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-3"></i>
+                            <span>Cash on delivery available</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-3"></i>
+                            <span>Free remote training included</span>
+                        </div>
+                    </div>
+                    <div class="bg-blue-700 bg-opacity-30 p-4 rounded-lg">
+                        <div class="flex items-center">
+                            <i class="fas fa-gift text-xl mr-3"></i>
+                            <div>
+                                <p class="font-medium">Limited Time Offer!</p>
+                                <p class="text-sm opacity-90">Free instructional video guide with every purchase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 p-8 md:p-12">
+                    <h3 class="text-xl font-bold mb-6">Complete your order details</h3>
+                    <form
+  action="https://formspree.io/f/xanjbznk"
+  method="POST">
+                        <div>
+                            <label for="fullName" class="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="phoneNumber" class="block text-sm font-medium text-gray-700 mb-1">Phone Number *</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email (Optional)</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="shippingAddress" class="block text-sm font-medium text-gray-700 mb-1">Complete Shipping Address *</label>
+                            <textarea id="shippingAddress" name="shippingAddress" rows="3" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
+                        </div>
+                        <div class="pt-2">
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-lg transition duration-300 flex items-center justify-center">
+                                <i class="fas fa-shopping-cart mr-2"></i> Order Now - Pay on Delivery
+                            </button>
+                        </div>
+                        <p class="text-sm text-gray-500 text-center">By placing your order, you agree to our <a href="#" class="text-blue-600 hover:underline">Terms of Service</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Reassurance -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4">Risk-Free Purchase</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">We make it easy and safe to upgrade your business</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-money-bill-wave text-green-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Cash on Delivery</h3>
+                        <p class="text-gray-600">Pay only when you receive the software. No upfront payment required.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-headset text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Free Remote Support</h3>
+                        <p class="text-gray-600">We'll help you install and set up everything. No tech skills needed.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-print text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Printer Compatibility</h3>
+                        <p class="text-gray-600">Works with most standard receipt printers used in Philippine stores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+                    <p class="text-lg text-gray-600">Find answers to common questions about our POS software</p>
+                </div>
+                
+                <div class="space-y-4">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item bg-white p-6 rounded-lg border border-gray-100 shadow-sm cursor-pointer">
+                        <div class="flex justify-between items-center">
+                            <h3 class="font-bold text-lg">What is POS software?</h3>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </div>
+                        <div class="mt-3 text-gray-600 hidden">
+                            <p>POS (Point of Sale) software helps businesses process sales transactions, manage inventory, track customer purchases, and generate reports. Our software is specifically designed for small businesses in the Philippines, with features tailored to local needs like sari-sari stores, retail shops, and small groceries.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item bg-white p-6 rounded-lg border border-gray-100 shadow-sm cursor-pointer">
+                        <div class="flex justify-between items-center">
+                            <h3 class="font-bold text-lg">Is it compatible with my printer or store type?</h3>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </div>
+                        <div class="mt-3 text-gray-600 hidden">
+                            <p>Our software works with most standard thermal receipt printers commonly used in Philippine businesses (EPSON, Citizen, Bixolon, etc.). It's designed for various store types including sari-sari stores, retail shops, small groceries, boutiques, and other small businesses. If you're unsure about compatibility, you can contact us with your printer model before ordering.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item bg-white p-6 rounded-lg border border-gray-100 shadow-sm cursor-pointer">
+                        <div class="flex justify-between items-center">
+                            <h3 class="font-bold text-lg">What's the difference between software-only and full POS package?</h3>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </div>
+                        <div class="mt-3 text-gray-600 hidden">
+                            <p>Our ₱16,990 offer is for the software license and flash drive with installer. This is perfect if you already have a computer and printer. Full POS packages that include hardware (computer, touchscreen, cash drawer, etc.) typically cost ₱50,000 or more. We focus on providing affordable software for businesses that already have basic equipment.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item bg-white p-6 rounded-lg border border-gray-100 shadow-sm cursor-pointer">
+                        <div class="flex justify-between items-center">
+                            <h3 class="font-bold text-lg">Do I need internet to use the POS software?</h3>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </div>
+                        <div class="mt-3 text-gray-600 hidden">
+                            <p>Internet is only required for the initial software activation and if you choose to use cloud backup features. Daily operations like sales transactions and inventory management work offline. You'll need internet again if you need remote support from our team.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 5 -->
+                    <div class="faq-item bg-white p-6 rounded-lg border border-gray-100 shadow-sm cursor-pointer">
+                        <div class="flex justify-between items-center">
+                            <h3 class="font-bold text-lg">What if I need help after installation?</h3>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </div>
+                        <div class="mt-3 text-gray-600 hidden">
+                            <p>We provide free remote support via Zoom or Messenger for 30 days after installation. After that period, you can still contact us for assistance, though priority support may require a small fee. Most users find our instructional videos and documentation sufficient for ongoing use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to upgrade your store?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Order your POS software now for only ₱16,990 with no monthly fees!</p>
+            <a href="#order" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition duration-300 inline-flex items-center mx-auto">
+                Order Now <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-cash-register text-3xl text-blue-400 mr-2"></i>
+                        <span class="text-xl font-bold">PinoyPOS</span>
+                    </div>
+                    <p class="text-gray-400">Affordable POS software for Philippine small businesses. One-time payment, lifetime use.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition">Features</a></li>
+                        <li><a href="#how-it-works" class="text-gray-400 hover:text-white transition">How It Works</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Contact Us</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-2"></i>
+                            <span>0917 123 4567</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-2"></i>
+                            <span>support@pinoypos.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fab fa-facebook-messenger mt-1 mr-2"></i>
+                            <span>m.me/PinoyPOS</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Payment Methods</h4>
+                    <div class="flex space-x-3 mb-4">
+                        <div class="bg-white p-2 rounded">
+                            <i class="fas fa-money-bill-wave text-green-600 text-xl"></i>
+                        </div>
+                        <div class="bg-white p-2 rounded">
+                            <i class="fas fa-credit-card text-blue-600 text-xl"></i>
+                        </div>
+                        <div class="bg-white p-2 rounded">
+                            <i class="fab fa-gcash text-green-500 text-xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm">Cash on Delivery available nationwide</p>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
+                <p>© 2023 PinoyPOS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Form submission handler
+        document.getElementById('posOrderForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const fullName = document.getElementById('fullName').value;
+            const phoneNumber = document.getElementById('phoneNumber').value;
+            const email = document.getElementById('email').value;
+            const shippingAddress = document.getElementById('shippingAddress').value;
+            
+            // In a real implementation, you would send this data to your server
+            // For this example, we'll just show an alert and log to console
+            console.log('Order submitted:', {
+                fullName,
+                phoneNumber,
+                email,
+                shippingAddress
+            });
+            
+            alert('Thank you for your order! We will contact you shortly to confirm your details. You will pay ₱16,990 upon delivery.');
+            
+            // Reset form
+            this.reset();
+            
+            // In a real implementation, you would send an email notification
+            // This is just a placeholder for the demo
+            const emailBody = `New POS Software Order:
+Name: ${fullName}
+Phone: ${phoneNumber}
+Email: ${email || 'Not provided'}
+Address: ${shippingAddress}
+            
+Please contact the customer to confirm the order.`;
+            
+            console.log('Email would be sent to: glaniojan04@gmail.com');
+            console.log('Email content:', emailBody);
+        });
+        
+        // FAQ accordion functionality
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const content = this.querySelector('div:last-child');
+                const icon = this.querySelector('.fa-chevron-down');
+                
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.classList.add('transform', 'rotate-180');
+                } else {
+                    content.classList.add('hidden');
+                    icon.classList.remove('transform', 'rotate-180');
+                }
+            });
+        });
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://deepsite.hf.co/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://deepsite.hf.co" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://deepsite.hf.co?remix=geolan1991/lp-sales-page-v2" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
